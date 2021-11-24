@@ -18,7 +18,10 @@ let nouveauTexte = monTexte.toUpperCase();
 
 chaineMaj.innerHTML = nouveauTexte;
 
-
+for (let i = 0; i < monTexte.length; i++) {
+    monTexte.includes('a');
+    alert("lettre a trouvé");
+}
 
 
 
